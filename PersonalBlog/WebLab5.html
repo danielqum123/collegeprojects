@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+		<title>Lab 5 </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .bg-image {
+          background-image: url("city_backgroud_image.jpg");
+          background-color: #cccccc;
+          height: 800px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100%;
+		  position: relative;
+        }
+        
+        .intro-text {
+          text-align:center;
+		  letter-spacing: 1px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: black;
+        }
+		.button {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: transparent;
+		    border: solid 1px;
+			color: white;
+			text-align: center;
+			font-size: 20px;
+			padding: 20px;
+			width: 200px;
+			transition: all 0.5s;
+			cursor: pointer;
+			outline-color: black;
+			text-decoration: none;
+			
+		}
+		.infoDIV{
+			background-color: #906040;
+			text-align: center;
+			vertical-align: middle;
+			border: 1px;
+			padding:10px;
+			color: white;
+		}
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+		}
+		.grid-item {
+		  border: 1px;
+		  padding: 20px;
+		  font-size: 13px;
+		  text-align: center;
+		}
+		
+        </style>
+        </head>
+        <body>
+
+            <div class="bg-image">
+              <div class="intro-text">
+                <h1 style="font-size:60px">Welcome to The City</h1>
+                <p style="font-size: 20px">
+				The "ideal" nature of such a city may encompass the moral, spiritual and juridical qualities of citizenship as well as the ways in which these are realised through urban structures including buildings, street layout, etc. The ground plans of ideal cities are often based on grids
+				</p>
+                <a class="button" href="#one">Learn More</a>
+              </div>
+            </div>
+			<div id = "one" class="infoDIV">
+				 The ideal city is often an attempt to deploy Utopian ideals at the local level of urban configuration 
+					and living space and amenity rather than at the culture- or civilisation-wide level 
+					of the classical Utopias such as St Thomas More's Utopia.
+				
+			</div>
+			<div id = "two" class="infoDIV" style = "background-color:#F0F8FF; color:black;">
+				 Several attempts to develop ideal city plans are known from the Renaissance, and appear from the second half of the fifteenth century.
+				 The concept dates at least from the period of Plato, whose Republic is a philosophical exploration of the notion of the 'ideal city'. 			
+			</div>
+			<div class="grid-container">
+			  <div class="grid-item" style = "background-color: #906040; color: white;">The nobility of the Renaissance, seeking to imitate the qualities of Classical civilisation,
+					sometimes sought to construct such ideal cities either in reality or notionally through a reformation of manners and culture.</div>
+			  <div class="grid-item" style = "background-color: #F0F8FF;">The Renaissance concept of an Ideal town developed by Italian polymath Leon Battista Alberti (1404–1472),
+					author of ten books of treatises on modern architecture titled De re aedificatoria written about 1450 with 
+					additions made until the time of his death in 1472</div>
+			  <div class="grid-item" style = "background-color: #906040; color: white;">Concerned the planning and building of an entire town as 
+					opposed to individual edifices for private patrons or ecclesiastical purposes.</div>  
+			</div>
+						
+            
+            </body>
+        
+</html>

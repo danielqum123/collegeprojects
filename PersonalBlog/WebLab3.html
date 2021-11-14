@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lab3</title>
+<style>
+h1 {
+  text-align: center;
+}
+p.spacing {
+  word-spacing: 125px;
+}
+p.ident {
+text-indent: 50px;
+}
+.firstLabel {
+    margin-right: 100px;
+}
+.horizontal-line {
+        display: inline-block;
+        border-top: 1px solid #8b37b8;
+      }
+.hr1 {
+        width: 400px;
+      }
+div.form{
+    display: block;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+label.colored { 
+  color: blue; 
+}
+label.coloredAndBold {
+  color: slateblue;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+
+}
+</style>
+</head>
+
+<body>
+<h1> Web Technologies Lab3</h1>
+<div class="form">
+<form>
+  <label class="coloredAndBold">What is your name?</label><br>
+  <p></p>
+  <input type="text" id="fname" name="fname" value="Danial Qumsieh"><br>
+  <p></p>
+  <label class="colored">Please rate your experience in Web programming.</label><br>
+  <p></p>  
+  <label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+  <input type="radio" id="rate1" name="rate1" value="1">
+  <label for="rate1"> 1</label>
+  <input type="radio" id="rate2" name="rate1" value="2">
+  <label for="rate2"> 2 </label>
+  <input type="radio" id="rate3" name="rate1" value="3">
+  <label for="rate3"> 3</label>
+  <input type="radio" id="rate4" name="rate1" value="4">
+  <label for="rate4"> 4</label>
+  <input type="radio" id="rate5" name="rate1" value="5">
+  <label for="rate5"> 5</label>
+  <p class="spacing">Disappointing Exceptional</p>
+
+  <hr class='horizontal-line hr1' /><br>
+
+  <label class="colored">Please rate the quality of the education that you received in
+  the university. </label><br>
+  <p></p>
+  <label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+  <input type="radio" id="r1" name="rate2" value="1">
+  <label for="rate1"> 1</label>
+  <input type="radio" id="r2" name="rate2" value="2">
+  <label for="rate2"> 2 </label>
+  <input type="radio" id="r3" name="rate2" value="3">
+  <label for="rate3"> 3</label>
+  <input type="radio" id="r4" name="rate2" value="4">
+  <label for="rate4"> 4</label>
+  <input type="radio" id="r5" name="rate2" value="5">
+  <label for="rate5"> 5</label>
+  <p class="spacing">Disappointing Exceptional</p>
+
+  <hr class='horizontal-line hr1' /><br>
+
+  <label class="colored">Do you know the following...?</label><br>
+  <p></p>
+  <label class="firstLabel">C++</label> 
+  <label>&nbsp; &nbsp;</label>
+  <input type="radio" id="yes1" name="num1" value="Yes">
+  <label for="yes1"> Yes </label>
+  <label> | </label>
+  <input type="radio" id="no1" name="num1" value="No">
+  <label for="no1"> No</label><br>
+
+  <label class="firstLabel">Java </label>
+  <label>&nbsp; &nbsp;</label> 
+  <input type="radio" id="yes2" name="num2" value="Yes">
+  <label for="yes2"> Yes </label>
+  <label> | </label>
+  <input type="radio" id="no2" name="num2" value="No">
+  <label for="no2"> No</label><br>
+
+  <label class="firstLabel">Python</label> 
+  <input type="radio" id="yes3" name="num3" value="Yes">
+  <label for="yes3"> Yes </label>
+  <label> | </label>
+  <input type="radio" id="no3" name="num3" value="No">
+  <label for="no3"> No</label><br>
+
+  <hr class='horizontal-line hr1' /><br>
+
+  <label class="colored">How frequently do you play sports excerises?</label><br>
+  <p></p>
+  <input type="radio" id="choice1" name="choice1" value="choice1">
+  <label>3-5 times per month</label> 
+  <label>&nbsp; &nbsp; &nbsp;</label>
+  <input type="radio" id="choice2" name="choice1" value="choice2">
+  <label for="choice2"> 1-2 times per month </label><br>
+  <input type="radio" id="choice3" name="choice1" value="choice3">
+  <label> Once every 2 months </label>
+  <label>&nbsp; &nbsp;</label> 
+  <input type="radio" id="choice4" name="choice1" value="choice4">
+  <label for="choice4"> Other </label><br>
+
+  <hr class='horizontal-line hr1' /><br>
+
+  <label class="coloredAndBold"> Explain the best approaches you follow to manage your time?</label><br>
+<p></p>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+  </textarea>
+  <br><br>
+  <input type="checkbox" id="chk" name="chk" value="chk">
+  <label for ="chk"> I agree to the terms and privacy policy</label><br>
+  <p></p>  
+  <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
